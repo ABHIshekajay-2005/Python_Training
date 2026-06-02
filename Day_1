@@ -1,0 +1,81 @@
+PYTHON TRAINING
+----------------
+
+> Used to name anything is called identifiers.
+	rules :
+	it should be either in characters.
+	if want to add a number it should be at the end
+	underscore is also allowed and does not take any other symbols.
+
+> there are 33 reserved words in python . These words cannot be used as identifiers , if used it shows an error.
+> except True , False , None all other reserved words are completely small letters.
+> There are 3 types of data type : 	
+	1.numeric data type - int , float ,complex
+	2.string - str
+	3.sequences type - list , tuple ,range
+	4.binary types - bytes , byte array , memory view
+	5.mapping data type - dictionary
+	6.Boolean - bool
+	7.set data type - set , frozen set
+
+> Fastest language - C++
+> type conversion in python : 
+	we can convert one type value to another type . This is called type conversion.
+	the following are the type casting method ,
+		1. int()
+		2.float()
+		3.complex()
+		4.bool()
+		5.str()
+> for mapping multiple values into multiple variables in the same time from the user , we use map function 
+
+	syntax : a,b = map (int (input ("enter the nums: ").split() )
+
+> Operators : symbol that performs certain operations.
+		there are following operators :
+ 
+		1.Arithmetic - +,-,*,**,/,//,%
+
+		2.Relational or Comparison - >,<,>=,<=,==,!>
+
+		3.Logical - and , or , not
+
+		4.Bitwise - AND(&) , OR(|) , NOT(~) , XOR(^) , LFTSHFT(<<) , RGTSHFT(>>)
+
+		5.Assignment - += , -= , *= , /=
+
+		6.special - membership operator(in , not in ) and identity operator(is , is not)
+
+> note : chaining of operators is possible in python , if one comparison gets false the entire chaining gets false . if its needs to be    		 	 true entire chaining must be true.
+
+> note : to find the XOR of certain binary numbers , the shortcut is :
+	
+		>> if there are even number of ones - zero(0)
+		>> if there are odd number of ones - One(1)
+		>> if full of zeros then - zero(0)
+
+> note : if we XOR the same number , it will cancel off.
+
+> note  : left shift example : 10<<2 gives 101000
+	  right shift example : 10>>2 gives 0010
+	
+	  for lftshft :
+ 
+	  	more simple way is X * 2^Y
+	  	example : 10<<3 - 10 * 2^3 = 80
+ 
+	  for rgtshft :
+	
+		more simple way is X / 2^Y
+		example : 10>>3 = 10/2^3 = 1.4
+ 
+> Time complexities : 
+	
+	1.for loop = o(n)
+	2.nested loop = o(n^a) , a=based on the no.of nested loops
+	3.sorting = o(nlogn) , fastest sorting is Tim sort
+	4.recurssion = o(2n)/o(2^n)
+	5.binary search = o(logn)
+
+> 
+ 
